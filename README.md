@@ -1,2 +1,0 @@
-# jayjnu.github.io
-Blog
