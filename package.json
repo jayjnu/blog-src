@@ -2,10 +2,18 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "npm run serve & npm run watch & npm run refresh",
+    "serve": "hexo serve -p 4500",
+    "watch": "hexo generate --watch",
+    "refresh": "browser-sync start --proxy http://localhost:4500 --files public --reload-debounce 500ms",
+    "deploy": "hexo deploy"
+  },
   "hexo": {
     "version": "3.3.9"
   },
   "dependencies": {
+    "browser-sync": "^2.18.13",
     "hexo": "^3.2.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
