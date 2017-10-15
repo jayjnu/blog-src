@@ -1,5 +1,5 @@
 ---
-title: 9월-4째주-프론트엔드-이슈
+title: 9월 4째주 프론트엔드 이슈
 date: 2017-09-23 11:50:17
 categories:
 - Weekly
