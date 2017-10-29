@@ -7,7 +7,7 @@
     "serve": "hexo serve -p 4500",
     "watch": "hexo generate --watch",
     "refresh": "browser-sync start --proxy http://localhost:4500 --files public --reload-debounce 500ms",
-    "deploy": "hexo deploy"
+    "deploy": "hexo deploy --generate"
   },
   "hexo": {
     "version": "3.3.9"
