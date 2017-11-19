@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run serve & npm run watch & npm run refresh",
-    "serve": "hexo serve -p 4500",
-    "watch": "hexo generate --watch",
-    "refresh": "browser-sync start --proxy http://localhost:4500 --files public --reload-debounce 500ms",
+    "start": "hexo server",
     "deploy": "hexo deploy --generate"
   },
   "hexo": {
