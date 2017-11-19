@@ -80,3 +80,11 @@ deploy:
   type: git
   repo: https://github.com/jayjnu/jayjnu.github.io.git
   branch: master
+
+
+# hexo-browsersync
+browsersync:
+  logLevel: "info"
+  proxy: http://localhost:4000/
+  ghostMode:
+    scroll: true

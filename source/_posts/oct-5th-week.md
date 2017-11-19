@@ -2,7 +2,7 @@
 title: 2017년 10월 5째주 ~ 11월 1째주 프론트엔드 이슈
 date: 2017-11-05 23:29:41
 categories:
-- weekly
+- Weekly
 tags:
 - node.js
 - angular.js
