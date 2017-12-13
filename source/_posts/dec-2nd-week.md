@@ -33,7 +33,7 @@ tags:
 - 모든 브라우저가 지원하게 된 WebAssembly
 - Serverless Architectures
 - Vue.js의 계속되는 약진
-- CSS-in-JS와 다가오는 CSS 십자군 전쟁 
+- CSS-in-JS와 다가오는 CSS 종교전쟁
 - 정적 사이트 생성 서비스
 - GraphQL 붐이 가져다준 API 구축에 대한 인식의 변화
 - 리액트 팀이 공식으로 인정한 React Router 4
@@ -41,7 +41,7 @@ tags:
 - TypesScript와 Flow
 
 
-한해의 마무리와 동시에 본문에서는 2018년 프론트엔드계의 쟁점이 될만한 여러 이슈를 나열해 놓고 있으니 관심있으면 본문을 참고해보도록하자.
+한해의 마무리와 동시에 본문에서는 2018년 프론트엔드계에 이슈가 될 주제들을 나열해 놓고 있으니 관심있으면 본문을 참고해보자.
 
 ## [4. 프론트엔드 개발자를 위한 GraphQL 안내서](https://css-tricks.com/front-end-developers-guide-graphql/)
 
