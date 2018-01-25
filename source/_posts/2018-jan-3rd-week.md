@@ -19,7 +19,7 @@ tags:
 ## [1. 크롬 65에 default로 탑재될 CSS Paint API](https://developers.google.com/web/updates/2018/01/paintapi)
 
 CSS Paint API (CSS Custom Paint 등으로도 알려진)가 크롬에 기본으로 탑재될 예정이다.
-CSS Paint API를 한마디로 정의하면, CSS에서 사용할 이미지를 JS로 미리 그려놓고 스타일시트에서 `paint()`함수로 해당 JS를 불러오면 이미지처럼 동작하게 해준다.
+CSS Paint API를 한마디로 정의하면, CSS에서 사용할 이미지를 JS로 미리 그려놓고 스타일시트에서 `paint()`함수로 해당 JS를 불러오면 이미지처럼 동작하게 해주는 API다.
 
 CSS Paint API를 이용하여 CSS 이미지를 `url()`, `linear-gradient()` 등의 기본 CSS 메소드가 아니라 직접 Javascript로 paint worklet을 작성하여 `paint(myCustomImage)` 와 같이 작성할 수 있다.
 본문에 실제 사용 법이 코드로 잘 설명되어 있으니 참고하면 좋을 듯 하다.
@@ -69,7 +69,7 @@ proposal에 적힌 원문은 아래와 같다.
 TC39의 입장에 대해 정리한 [ljharb](https://github.com/ljharb)의 [댓글](https://github.com/tc39/ecma262/pull/1062#issuecomment-357037779)을 인용하자면 아래와 같다.
 
 > **ASI에대한 신뢰도를 떨어뜨리는 것**이 위원회의 컨센서스이며 의도다. 세미콜론을 사용하고 있지 않은 이들을 "나쁘다"거나 "오용한다"고 낙인을 하려는 의도는 아니지만, 본문은 말그대로 중립적인 스탠스라고는 할 수 없다.
-> 세미콜론을 쓰느냐 마느냐의 문제로 논쟁하는 것은 이 PR 에서 하는 것이 생산적이라고 보진않는다. 그러니 그 얘기는 딴데서 하는 것이 좋아보인다.
+> 세미콜론을 쓰느냐 마느냐의 문제로 논쟁하는 것은 이 PR 에서 하는 것이 생산적이라고 보진않는다. 부디 그방향으로 가지 말기를.. 
 
 개인적으로는 세미콜론을 쓰는 것을 좋아한다. 그렇게 해왔던 것이 익숙하기도 하고, 애초에 에러를 일으킬 가능성이 있다면 사용하지 않는것이 낫다고 생각하기 때문이다.
 
